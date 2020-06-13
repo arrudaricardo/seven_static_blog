@@ -1,0 +1,31 @@
+.footerFixed {
+  position: fixed;
+  clear: both;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  font-size: 0.6em;
+  line-height: normal;
+  opacity: 0.6;
+}
+.footerRelative {
+  display: flex;
+  position: relative;
+  clear: both;
+  justify-content: center;
+  font-size: 0.6em;
+  line-height: normal;
+  opacity: 0.6;
+  margin-top: 5em;
+}
+
+.footerP {
+  margin-top: 0;
+}
+
+.icon {
+  display: inline-block;
+  vertical-align: -0.125em;
+  width: 1em;
+  height: 1em;
+}

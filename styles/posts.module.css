@@ -1,0 +1,49 @@
+.root {
+  margin: 5%;
+}
+.group {
+  display: flex;
+  margin-bottom: 1.9em;
+  line-height: normal;
+}
+.year {
+  padding-top: 6px;
+  margin-right: 1.8em;
+  font-size: 1.6em;
+  opacity: 0.6;
+}
+.year:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.list {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.item {
+  border-bottom: 1px #7d828a dashed;
+}
+.itemA {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 12px 0;
+}
+.day {
+  flex-shrink: 1;
+  margin-left: 1em;
+  opacity: 0.6;
+}
+
+.main {
+  display: block;
+}
+
+@media (max-width:641px)  {
+  .day {
+    font-size: 0.9rem;
+  margin-left: 0em;
+  }
+}

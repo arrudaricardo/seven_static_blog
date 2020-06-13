@@ -1,0 +1,159 @@
+.root {
+  /* margin: auto; */
+  display: grid;
+  align-content: space-around;
+  grid-template: 1fr / 1fr;
+  place-items: center;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #c6cddb;
+  padding-bottom: .3rem;
+}
+.list {
+  display: flex;
+  align-content: space-around;
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+
+}
+
+.listItems {
+  padding-right: .5rem;
+}
+
+#Iam-subtitle {
+
+  text-align: center;
+  font-style: normal;
+  opacity: 0.9;
+}
+.Iam {
+  font-style: normal;
+  font-size: 20px;
+  line-height: 25px;
+  color: #c6cddb;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+.Iam p {
+  height: 25px;
+  float: left;
+  margin-right: 0.3em;
+}
+.Iam b {
+  float: left;
+  overflow: hidden;
+  position: relative;
+  height: 25px;
+  top: 20px;
+}
+.Iam .innerIam {
+  display: inline-block;
+  color: #c6cddcba;
+  position: relative;
+  white-space: nowrap;
+  top: 0;
+  left: 0;
+  -webkit-animation: move 5s;
+  -moz-animation: move 5s;
+  -ms-animation: move 5s;
+  -o-animation: move 5s;
+  animation: move 5s;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  -ms-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+  animation-delay: 1.5s;
+}
+@keyframes move {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: -25px;
+  }
+  40% {
+    top: -50px;
+  }
+  60% {
+    top: -75px;
+  }
+  80% {
+    top: -100px;
+  }
+}
+@-webkit-keyframes move {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: -25px;
+  }
+  40% {
+    top: -50px;
+  }
+  60% {
+    top: -75px;
+  }
+  80% {
+    top: -100px;
+  }
+}
+@-moz-keyframes move {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: -25px;
+  }
+  40% {
+    top: -50px;
+  }
+  60% {
+    top: -75px;
+  }
+  80% {
+    top: -100px;
+  }
+}
+@-o-keyframes move {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: -25px;
+  }
+  40% {
+    top: -50px;
+  }
+  60% {
+    top: -75px;
+  }
+  80% {
+    top: -100px;
+  }
+}
+@keyframes move {
+  0% {
+    top: 0;
+  }
+  20% {
+    top: -25px;
+  }
+  40% {
+    top: -50px;
+  }
+  60% {
+    top: -75px;
+  }
+  80% {
+    top: -100px;
+  }
+}

@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 93%;
+  margin: auto;
+  font-size: 1.5rem;
+  background-color: blue;
+}
+.error-404 {
+  background-color: blue;
+  flex-direction: row;
+  line-height: normal;
+}
+
+.img {
+  margin: 0;
+}
+.img-svg {
+  width: 180px;
+  max-width: 100%;
+  height: auto;
+}
+.banner {
+  margin-left: 2em;
+  font-size: 0.8em;
+}
+.banner-h1 {
+  font-size: 3em;
+  margin: 0.5rem 0;
+}
+.banner-p {
+  margin-top: 0;
+}
+
+.btn {
+  font-size: 0.8em;
+}
+.banner-404 .btn-404 a {
+  display: inline-block;
+  border: 2px solid #e8eef2;
+  border-radius: 5px;
+  padding: 5px;
+  transition-property: color, border-color;
+}
+.banner-404 .btn-404 a:first-child {
+  margin-right: 1em;
+}
+.banner-404 .btn-404 a:hover {
+  border-color: #fff;
+}
+.banner-404 .btn-404 a svg {
+  margin-right: 0.5em;
+}

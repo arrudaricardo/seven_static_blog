@@ -1,0 +1,15 @@
+.icon {
+  display: inline-block;
+  vertical-align: -0.125em;
+  width: 1em;
+  height: 1em;
+}
+.social-home {
+  font-size: 1.4em;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.link {
+  margin: 0 .2em;
+}

@@ -1,0 +1,47 @@
+{
+"title": "Your Title",
+"subTitle": "subtitile",
+"baseURL": "https://baseurl.com",
+"googleAnalytics": "",
+"copyright": "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.",
+"defaultContentLanguage": "en",
+"themeColor": "#494f5c",
+"languageCode": "en-us",
+"description": "description",
+"footerCopyright": "CC",
+"author": {
+  "name": "author"
+  },
+"dateform": "Jan 2, 2006",
+"dateformNum": "2006-01-02",
+"dateformNumTime": "2006-01-02 15:04 -0700",
+"dateformShort": "Jan 2",
+"iam": {
+  "IamList": [["I'm", "something"],
+              ["I'm","anything"],
+              ["I' like", "stuffs"],
+              ["I ❤️","other stuffs"]
+              ]
+  },
+"social": {
+  "cv": {
+    "url": "about"
+  },
+  "github": {
+    "url": "https://github.com/arrudaricardo/"
+  },
+  "linkedin": {
+    "url": "https://www.linkedin.com/in/your_profile/"
+  },
+  "instagram": {
+    "url": "https://www.instagram.com/your_profile/"
+  },
+  "devto": {
+    "url": "https://dev.to/your_profile/"
+  },
+  "email": {
+    "url": "mailto:your_email@email.com?subject=Hey%20you.&body="
+  }
+}
+}
+

@@ -1,0 +1,36 @@
+.root {
+  right: 0;
+  position: fixed;
+  margin: 0.6rem;
+  cursor: pointer;
+}
+
+
+.feather {
+  filter: opacity(40%) invert(100%);
+  width: 2rem;
+  height: 2rem;
+}
+
+.feather:hover {
+  filter: opacity(60%) invert(100%);
+}
+
+.share{
+  display: flex;
+  max-width: 10rem;
+  max-height: 10rem;
+}
+
+.icon {
+  fill: #fff;
+  filter: opacity(80%);
+  margin-right: 1rem;
+  width: 4rem;
+  height: 2rem;
+}
+
+.icon:hover{
+  fill: #8cd1ff;
+  filter: opacity(100%);
+}

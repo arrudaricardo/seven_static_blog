@@ -1,0 +1,115 @@
+
+html {
+  background: #494f5c;
+  line-height: 1.6;
+  letter-spacing: 0.06em;
+  scroll-behavior: smooth;
+}
+body,
+button,
+input,
+select,
+textarea {
+  color: #e8eef2;
+  font-family: trebuchet ms, Verdana, verdana ref, segoe ui, Candara,
+    lucida grande, lucida sans unicode, lucida sans, Tahoma, sans-serif;
+}
+pre,
+code,
+pre tt {
+  font-family: Consolas, andale mono wt, andale mono, Menlo, Monaco,
+    lucida console, lucida sans typewriter, dejavu sans mono,
+    bitstream vera sans mono, liberation mono, nimbus mono l, courier new,
+    Courier, yahei consolas hybrid, monospace, segoe ui emoji, pingfang sc,
+    microsoft yahei;
+}
+pre {
+  padding: 0.7em 1.1em;
+  overflow: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+  letter-spacing: normal;
+  white-space: pre;
+  color: #eee;
+  background: #2c3e50;
+  border-radius: 4px;
+}
+pre code {
+  padding: 0;
+  margin: 0;
+  background: #2c3e50;
+}
+code {
+  color: #eee;
+  background: #7d828a;
+  border-radius: 3px;
+  padding: 0 3px;
+  margin: 0 4px;
+  word-wrap: break-word;
+  letter-spacing: normal;
+}
+blockquote {
+  border-left: 0.25em solid;
+  margin: 1em;
+  padding: 0 1em;
+  font-style: italic;
+}
+blockquote cite {
+  font-weight: 700;
+  font-style: normal;
+}
+blockquote cite::before {
+  content: "—— ";
+}
+a {
+  color: #e8eef2;
+  text-decoration: none;
+  border: none;
+  transition-property: color;
+  transition-duration: 0.4s;
+  transition-timing-function: ease-out;
+}
+a:hover {
+  color: #fff;
+  text-shadow: 0 0 1px #fff;
+}
+hr {
+  opacity: 0.2;
+  border-width: 0 0 5px;
+  border-style: dashed;
+  background: transparent;
+  width: 50%;
+  margin: 1.8em auto;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  empty-cells: show;
+  width: 100%;
+  max-width: 100%;
+}
+table th,
+table td {
+  padding: 1.5%;
+  border: 1px solid;
+}
+table th {
+  font-weight: 700;
+  vertical-align: bottom;
+}
+
+img {
+  width: 100%;
+  /* max-width:100%; */
+  /* max-height:100%; */
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+    background: #2c3e50;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #888;
+}
